@@ -1,0 +1,14 @@
+{  
+   "request":{  
+      "url":"/ClientPortalService/withdrawalapplication/list",
+      "method":"GET"
+   },
+   "response":{  
+      "status":200,
+      "bodyFileName": "json/mock-withdrawals.json",
+      "headers": {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache"
+     }
+   }
+}

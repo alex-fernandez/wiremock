@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<deakinHeader xmlns="http://deakin.edu.au/common/header/v1/xsd"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			
+			<initialContext>
+				<initialSecurityClassification>Public
+				</initialSecurityClassification>
+				<sessionID>sessionID0</sessionID>
+				<trackingID>trackingID0</trackingID>
+				<creationTime>2006-05-04T18:13:51.0</creationTime>
+				<actor>
+					<system>system0</system>
+					<component>component0</component>
+					<operation>operation0</operation>
+					<user>user0</user>
+					<role>role0</role>
+				</actor>
+			</initialContext>
+			<securityContext>
+				<classification>Confidential</classification>
+			</securityContext>
+			<messageContext>
+				<disableCacheWherePossible>false</disableCacheWherePossible>
+			</messageContext>
+		</deakinHeader>
+	</soap:Header>
+	<soap:Body>
+		<sta:searchStaffResponse xmlns:sta="http://deakin.edu.au/staff/staffservice/v3/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		  <staff>
+		    <title>DR</title>
+		    <firstName>Alex</firstName>
+		    <lastName>Fonder</lastName>
+		    <preferredName>Jane</preferredName>
+		    <gender>2</gender>
+		    <birthDate>1959-01-12</birthDate>
+		    <identifier>
+		      <value>198932</value>
+		      <type>PS_EMPLOYEE_ID</type>
+		    </identifier>
+		    <identifier>
+			 	<value>jfonder</value>
+			 	<type>IAM_USERNAME</type>
+			</identifier>
+			<contactMethod xsi:type="sta:electronic">
+				<type>DEAKIN_EMAIL_ID</type>
+				<electronicValue>jfond@deakin.edu.au</electronicValue>
+			</contactMethod>
+			<contactMethod xsi:type="sta:electronic">
+				<type>HOME_EMAIL_ID</type>
+				<electronicValue>jane.shaza@gmail.com</electronicValue>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>WORK_PHONE</type>
+				<phoneNumber>0399999999</phoneNumber>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>HOME_PHONE</type>
+				<phoneNumber>0399999990</phoneNumber>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>MOBILE_PHONE</type>
+				<phoneNumber>0444444444</phoneNumber>
+			</contactMethod>
+		    <contactMethod xsi:type="sta:address">
+		      <type>POSTAL_ADDRESS</type>
+		      <since>2015-03-10</since>
+		      <addressLine>PO Box 1</addressLine>
+		      <suburb>Waurn Ponds</suburb>
+		      <stateOrTerritory>VIC</stateOrTerritory>
+		      <country>AUS</country>
+		      <postcode>3216</postcode>
+		    </contactMethod>
+		    <commencementDate>2001-01-01</commencementDate>
+		    <lastUpdateDatetime>2015-01-01T12:00:00</lastUpdateDatetime>
+		    <job>
+		      <positionTitle>Senior Lecturer</positionTitle>
+		      <positionId>POS_12345</positionId>
+		      <positionClassification>IELT1</positionClassification>
+		      <jobId>12345</jobId>
+		      <area>School of Psychology</area>
+		      <employmentStatus>Active</employmentStatus>
+		      <employeeStatusCode>CAC</employeeStatusCode>
+      		  <employeeStatusDescription>Continuing - Academic</employeeStatusDescription>
+		      <positionFunction>Continuing</positionFunction>
+		      <functionAcademicFlag>true</functionAcademicFlag>
+		      <functionProfessionalFlag>false</functionProfessionalFlag>
+		      <functionResearchFlag>false</functionResearchFlag>
+		      <positionFraction>80</positionFraction>
+		      <managerFlag>true</managerFlag>
+		      <primaryPositionFlag>true</primaryPositionFlag>
+		      <startDate>2001-01-01</startDate>
+		      <endDate>2049-12-31</endDate>
+		      <award>HEW</award>
+		      <lastUpdateDatetime>2001-01-02T12:00:00</lastUpdateDatetime>
+		      <locationCode>B</locationCode>
+		      <locationDescription>Melbourne Burwood Campus</locationDescription>
+		      <payGroup>DU PAYROLL</payGroup>
+		      <commencementReason>FRACD</commencementReason>
+		      <standardHours>36.45</standardHours>
+		      <managerName>John Smith</managerName>
+		      <managerPositionId>00000002</managerPositionId>
+		      <managerStaffId>jsmith</managerStaffId>
+		      <managerTitle>Vice President, Deakin, eSolutions</managerTitle>
+		      <probationStartDate>2001-01-01</probationStartDate>
+		      <probationEndDate>2001-01-04</probationEndDate>
+		      <tempAssignmentIndicator>CONCURRENT</tempAssignmentIndicator>
+      		  <relatedJobReference>0</relatedJobReference>
+		      <accountCode>
+			   <activityCode>11226</activityCode>
+			   <budgetCentre>0141</budgetCentre>
+			   <entity>01</entity>
+			   <fundSource>01</fundSource>
+			   <naturalAccount>xxxx</naturalAccount>
+			   <percentAllocated>100</percentAllocated>
+			 </accountCode>
+		      <orgUnit>
+		         <code>01000</code>
+		         <hierarchyLevel>1</hierarchyLevel>
+		         <name>Deakin University</name>
+		         <orgUnit>
+		            <code>26</code>
+		            <hierarchyLevel>2</hierarchyLevel>
+		            <name>BL - Faculty of Business Law</name>
+		            <orgUnit>
+		               <code>0110</code>
+		               <hierarchyLevel>3</hierarchyLevel>
+		               <name>Deakin Business School</name>
+		              <orgUnit>
+		                  <code>0141</code>
+		                  <hierarchyLevel>4</hierarchyLevel>
+		                  <name>Department of Accounting</name>
+		               </orgUnit>
+		            </orgUnit>
+		         </orgUnit>
+		      </orgUnit>
+		    </job>
+		    <qualification>
+		      <qualificationName>BBSc(Hons) [La Trobe]</qualificationName>
+		      <qualificationType>Graduate</qualificationType>
+		      <qualificationYear>1987</qualificationYear>
+		      <qualificationInstitution>A3400</qualificationInstitution>
+		      <qualificationLocation>AUST</qualificationLocation>
+		      <qualificationStartDate>1992-01-01</qualificationStartDate>
+		      <qualificationEndDate>1996-01-01</qualificationEndDate>
+		    </qualification>
+		  </staff>
+		    <staff>
+		    <title>DR</title>
+		    <firstName>Jane</firstName>
+		    <lastName>shaz</lastName>
+		    <preferredName>Jane</preferredName>
+		    <gender>2</gender>
+		    <birthDate>1959-01-12</birthDate>
+		    <identifier>
+		      <value>198932</value>
+		      <type>PS_EMPLOYEE_ID</type>
+		    </identifier>
+		    <identifier>
+			 	<value>jfonder</value>
+			 	<type>IAM_USERNAME</type>
+			</identifier>
+			<contactMethod xsi:type="sta:electronic">
+				<type>DEAKIN_EMAIL_ID</type>
+				<electronicValue>jfond@deakin.edu.au</electronicValue>
+			</contactMethod>
+			<contactMethod xsi:type="sta:electronic">
+				<type>HOME_EMAIL_ID</type>
+				<electronicValue>jane.shaza@gmail.com</electronicValue>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>WORK_PHONE</type>
+				<phoneNumber>0399999999</phoneNumber>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>HOME_PHONE</type>
+				<phoneNumber>0399999990</phoneNumber>
+			</contactMethod>
+			<contactMethod xsi:type="sta:phone">
+				<type>MOBILE_PHONE</type>
+				<phoneNumber>0444444444</phoneNumber>
+			</contactMethod>
+		    <contactMethod xsi:type="sta:address">
+		      <type>POSTAL_ADDRESS</type>
+		      <since>2015-03-10</since>
+		      <addressLine>PO Box 1</addressLine>
+		      <suburb>Waurn Ponds</suburb>
+		      <stateOrTerritory>VIC</stateOrTerritory>
+		      <country>AUS</country>
+		      <postcode>3216</postcode>
+		    </contactMethod>
+		    <commencementDate>2001-01-01</commencementDate>
+		    <lastUpdateDatetime>2015-01-01T12:00:00</lastUpdateDatetime>
+		    <job>
+		      <positionTitle>Senior Lecturer</positionTitle>
+		      <positionId>POS_12345</positionId>
+		      <positionClassification>IELT1</positionClassification>
+		      <jobId>12345</jobId>
+		      <area>School of Psychology</area>
+		      <employmentStatus>Active</employmentStatus>
+		      <employeeStatusCode>CAC</employeeStatusCode>
+      		  <employeeStatusDescription>Continuing - Academic</employeeStatusDescription>
+		      <positionFunction>Continuing</positionFunction>
+		      <functionAcademicFlag>true</functionAcademicFlag>
+		      <functionProfessionalFlag>false</functionProfessionalFlag>
+		      <functionResearchFlag>false</functionResearchFlag>
+		      <positionFraction>80</positionFraction>
+		      <managerFlag>true</managerFlag>
+		      <primaryPositionFlag>true</primaryPositionFlag>
+		      <startDate>2001-01-01</startDate>
+		      <endDate>2049-12-31</endDate>
+		      <award>HEW</award>
+		      <lastUpdateDatetime>2001-01-02T12:00:00</lastUpdateDatetime>
+		      <locationCode>B</locationCode>
+		      <locationDescription>Melbourne Burwood Campus</locationDescription>
+		      <payGroup>DU PAYROLL</payGroup>
+		      <commencementReason>FRACD</commencementReason>
+		      <standardHours>36.45</standardHours>
+		      <managerName>John Smith</managerName>
+		      <managerPositionId>00000002</managerPositionId>
+		      <managerStaffId>jsmith</managerStaffId>
+		      <managerTitle>Vice President, Deakin, eSolutions</managerTitle>
+		      <probationStartDate>2001-01-01</probationStartDate>
+		      <probationEndDate>2001-01-04</probationEndDate>
+		      <tempAssignmentIndicator>CONCURRENT</tempAssignmentIndicator>
+      		  <relatedJobReference>0</relatedJobReference>
+		      <accountCode>
+			   <activityCode>11226</activityCode>
+			   <budgetCentre>0141</budgetCentre>
+			   <entity>01</entity>
+			   <fundSource>01</fundSource>
+			   <naturalAccount>xxxx</naturalAccount>
+			   <percentAllocated>100</percentAllocated>
+			 </accountCode>
+		      <orgUnit>
+		         <code>01000</code>
+		         <hierarchyLevel>1</hierarchyLevel>
+		         <name>Deakin University</name>
+		         <orgUnit>
+		            <code>26</code>
+		            <hierarchyLevel>2</hierarchyLevel>
+		            <name>BL - Faculty of Business Law</name>
+		            <orgUnit>
+		               <code>0110</code>
+		               <hierarchyLevel>3</hierarchyLevel>
+		               <name>Deakin Business School</name>
+		              <orgUnit>
+		                  <code>0141</code>
+		                  <hierarchyLevel>4</hierarchyLevel>
+		                  <name>Department of Accounting</name>
+		               </orgUnit>
+		            </orgUnit>
+		         </orgUnit>
+		      </orgUnit>
+		    </job>
+		    <qualification>
+		      <qualificationName>BBSc(Hons) [La Trobe]</qualificationName>
+		      <qualificationType>Graduate</qualificationType>
+		      <qualificationYear>1987</qualificationYear>
+		      <qualificationInstitution>A3400</qualificationInstitution>
+		      <qualificationLocation>AUST</qualificationLocation>
+		      <qualificationStartDate>1992-01-01</qualificationStartDate>
+		      <qualificationEndDate>1996-01-01</qualificationEndDate>
+		    </qualification>
+		  </staff>
+		   
+		</sta:searchStaffResponse>
+	</soap:Body>
+</soap:Envelope>

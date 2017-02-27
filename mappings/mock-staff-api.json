@@ -1,0 +1,14 @@
+{  
+   "request":{  
+      "url":"/staff/staffService/v1/searchStaff",
+      "method":"POST"
+   },
+   "response":{  
+      "status":200,
+      "bodyFileName": "xml/mock-deakin-staff.xml",
+      "headers": {
+            "Content-Type": "application/xml",
+            "Cache-Control": "no-cache"
+     }
+   }
+}

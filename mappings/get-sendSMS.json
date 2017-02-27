@@ -1,0 +1,15 @@
+{  
+   "request":{  
+      "url":"/api/v1/sms/64045c91-c1e3-4dc8-a96d-1ae0b33ad535",
+      "method":"GET"
+   },
+   "response":{  
+      "fixedDelayMilliseconds": 100,
+      "status":200,
+      "bodyFileName": "json/mock-send-sms.json",
+      "headers": {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache"
+     }
+   }
+}

@@ -1,0 +1,66 @@
+{
+  "units":[
+    {
+      "code":"MAA103",
+      "version":"1",
+      "title":"Accounting for Decision Making",
+      "shortTitle":"Accounting for Decision Making",
+      "abbreviation":"Accounting for Decision Making",
+      "unitLevel":1,
+      "unitTypeCode":"1",
+      "unitTypeDescription":"Unit of Study from a first year undergraduate program",
+      "isSuppExamPermitted":true,
+      "isAwardCourse":true,
+      "isResearchUnit":false,
+      "isIndustrial":false,
+      "isPractical":false,
+      "isRepeatable":true,
+      "isAssessable":true,
+      "unitChair":{
+        "links":{
+          "staff":{
+            "href":"/staff/123456"
+          }
+        },
+        "title":"Dr",
+        "firstName":"John",
+        "lastName":"Smith"
+      },
+      "enrolledCredits":1,
+      "achievableCredits":1,
+      "status":"current",
+      "orgUnits":[
+        {
+          "code":"DU",
+          "hierarchyLevel":1,
+          "name":"Deakin University",
+          "orgUnitType":"",
+          "orgUnits":[
+            {
+              "code":"01",
+              "hierarchyLevel":2,
+              "name":"Faculty of Business and Law",
+              "orgUnitType":"F",
+              "orgUnits":[
+                {
+                  "code":"0140",
+                  "hierarchyLevel":3,
+                  "name":"Deakin Business School",
+                  "orgUnitType":"",
+                  "orgUnits":[
+                    {
+                      "code":"0141",
+                      "hierarchyLevel":4,
+                      "name":"Department of Accounting",
+                      "orgUnitType":""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

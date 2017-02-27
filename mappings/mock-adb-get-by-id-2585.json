@@ -1,0 +1,14 @@
+{  
+   "request":{  
+      "url":"/ClientPortalService/withdrawalapplication/get/2585",
+      "method":"GET"
+   },
+   "response":{  
+      "status":200,
+      "bodyFileName": "json/mock-withdrawal-by-id-2585.json",
+      "headers": {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache"
+     }
+   }
+}

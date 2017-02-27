@@ -1,0 +1,287 @@
+{
+  "id" : "2585",
+  "productType" : "LOAN",
+  "product" : {
+    "id" : "2317L",
+    "productNo" : "2317",
+    "productBalance" : null,
+    "productType" : "LOAN",
+    "productClassification" : "PROJECT",
+    "fundCode" : "03",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "currency" : {
+      "id" : null,
+      "code" : "SDR",
+      "isoCode" : "XDR",
+      "name" : "SDR                 ",
+      "displayIsoCode" : "SDR",
+      "precision" : 2,
+      "excelFormat" : "#,##0.00_);[Red](#,##0.00)"
+    },
+    "productName" : "MFF-BAN:RAILWAY SECTOR INVESTMENT PROGRAM REFORM",
+    "amountUsd" : 29478324.21,
+    "amountRevUsd" : 0,
+    "amount" : 20088000,
+    "amountOrig" : 20088000,
+    "amountRetroFin" : null,
+    "amountAbsLCostUsd" : null,
+    "agencies" : null,
+    "projectNo" : "32234",
+    "status" : "ACTIVE",
+    "specialFeatures" : "1)APPROVAL NOT TO OPEN IMPREST ACCOUNT PER MEMO OF OIC,SATC 16OCT07   2)SOE INDIV PYMT MAX OF $100,000                                      3)MINOR CHANGE APPROVED 9MAR16 TO FINANCE DUTIES & TAXES UNDER CAT 1B RETROACTIVELY (PARA10)",
+    "productRelatedLoanNo" : null,
+    "productRelatedTANo" : null,
+    "categories" : null,
+    "approvalDate" : 1171296000000,
+    "signingDate" : 1171468800000,
+    "agreementDate" : null,
+    "effectivityDate" : 1177344000000,
+    "loanServicePaymentDates" : "15 May, 15 Nov",
+    "originalClosingDate" : 1309363200000,
+    "latestClosingDate" : 1475942400000,
+    "closedDate" : null,
+    "retroFinancialDate" : null,
+    "termsNo" : 32.0,
+    "gracePeriod" : 8.0,
+    "interestType" : null,
+    "interestRate" : null,
+    "serviceChargeRate" : null,
+    "capitalization" : "Yes",
+    "advanceProcurementAction" : null,
+    "borrowerName" : "People's Republic of Bangladesh",
+    "borrowerAddr" : "Bangladesh  ",
+    "borrowerRep" : "Ministry of Finance                               ",
+    "borrowerRepAddr" : "Economic Relations Division (ERD), MOF Sher-e-Bangla Nagar, Dhaka_1207 Bangladesh                                         ",
+    "disbursementUnitName" : "Disbursement Section 1 (CTLA-1)",
+    "administeringOfcName" : "Bangladesh Resident  Mission                                ",
+    "adfGracePeriodInterestRate" : 1.0,
+    "adfAmortizationPeriodInterestRate" : 1.5,
+    "fundSources" : null,
+    "loanSegments" : [ ],
+    "recipientExecutingAgency" : null,
+    "productClassificationName" : "Project",
+    "orgUnit" : null,
+    "isSoeAllowed" : true,
+    "workflow" : 2
+  },
+  "agency" : {
+    "id" : "BAN0210",
+    "name" : "Bangladesh Railway (BR)                           ",
+    "address" : "Railway Div., Ministry of Communication Rail Bhavan, Abdul Gani RoadDhaka, Bangladesh                                    "
+  },
+  "disbursementType" : "RMB",
+  "borrowerId" : null,
+  "transactionType" : "RMB_NON_PBL",
+  "applicationNo" : "50006",
+  "currency" : {
+    "id" : null,
+    "code" : "US$",
+    "isoCode" : "USD",
+    "name" : "US Dollar           ",
+    "displayIsoCode" : "USD",
+    "precision" : 2,
+    "excelFormat" : "#,##0.00_);[Red](#,##0.00)"
+  },
+  "amount" : 9996,
+  "status" : "SUBMIT_TO_ADB",
+  "finalDisbursement" : false,
+  "lastUpdateDate" : 1461722322000,
+  "lastUpdatedBy" : {
+    "id" : 10,
+    "firstName" : "Sarah",
+    "middleName" : null,
+    "lastName" : "Ang Munting Prinsesa",
+    "emailAddress" : "sarah@test.com",
+    "contactTitle" : null,
+    "jobPosition" : null,
+    "status" : "ACTIVE",
+    "role" : "WA_ASST",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "agency" : {
+      "id" : "BAN0002",
+      "name" : "Agrani Bank                                       ",
+      "address" : "Motijheel Commercial Area DhakaBangladesh                                                                                "
+    },
+    "assignedTokenCount" : 0,
+    "activeTokenCount" : 0,
+    "allProductsFlag" : true
+  },
+  "summarySheets" : null,
+  "paymentInstruction" : {
+    "name" : "sadf",
+    "address" : "kjl",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "specialInstruction" : null,
+    "bankDetail" : null
+  },
+  "waDate" : null,
+  "bankDetailMap" : {
+    "Payee" : {
+      "swiftCode" : "65ftUjijqSl2b/WM/or4zw==",
+      "name" : "80k8pQ7WsWtjH7K/tuLH+g==",
+      "branch" : "YUwHC6dO1Y47XK4mcZSHUA==",
+      "address" : "YUwHC6dO1Y47XK4mcZSHUA==",
+      "country" : {
+        "id" : "38",
+        "mnemonicIsoCode" : "BAN",
+        "shortName" : "Bangladesh  ",
+        "name" : "Bangladesh          ",
+        "currencyCode" : "BDT"
+      },
+      "accountNo" : "X49XZuqaor3TxUQJ3MlKBg==",
+      "clearingCodes" : "YUwHC6dO1Y47XK4mcZSHUA==",
+      "otherCodes" : "YUwHC6dO1Y47XK4mcZSHUA=="
+    },
+    "Correspondent" : {
+      "swiftCode" : "s2BK8VmS9EWs9tBT5M0uvw==",
+      "name" : "T2nQm6CTzVFfzQ5M+6C7tw==",
+      "branch" : "YUwHC6dO1Y47XK4mcZSHUA==",
+      "address" : "YUwHC6dO1Y47XK4mcZSHUA==",
+      "country" : {
+        "id" : "38",
+        "mnemonicIsoCode" : "BAN",
+        "shortName" : "Bangladesh  ",
+        "name" : "Bangladesh          ",
+        "currencyCode" : "BDT"
+      },
+      "accountNo" : "s2BK8VmS9EWs9tBT5M0uvw==",
+      "clearingCodes" : "s2BK8VmS9EWs9tBT5M0uvw==",
+      "otherCodes" : "s2BK8VmS9EWs9tBT5M0uvw=="
+    }
+  },
+  "createdBy" : {
+    "id" : 10,
+    "firstName" : "Sarah",
+    "middleName" : null,
+    "lastName" : "Ang Munting Prinsesa",
+    "emailAddress" : "sarah@test.com",
+    "contactTitle" : null,
+    "jobPosition" : null,
+    "status" : "ACTIVE",
+    "role" : "WA_ASST",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "agency" : {
+      "id" : "BAN0002",
+      "name" : "Agrani Bank                                       ",
+      "address" : "Motijheel Commercial Area DhakaBangladesh                                                                                "
+    },
+    "assignedTokenCount" : 0,
+    "activeTokenCount" : 0,
+    "allProductsFlag" : true
+  },
+  "loanSegment" : null,
+  "fileAttachments" : null,
+  "segmentNumber" : null,
+  "wfHistoryCount" : 3,
+  "proposedSignatories" : [ {
+    "id" : 4,
+    "firstName" : "John",
+    "middleName" : null,
+    "lastName" : "Grisham",
+    "emailAddress" : "john@test.com",
+    "contactTitle" : null,
+    "jobPosition" : null,
+    "status" : "ACTIVE",
+    "role" : "AUTH_SIGNATORY",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "agency" : {
+      "id" : "BAN0005",
+      "name" : "Ministry of Finance                               ",
+      "address" : "Economic Relations Division (ERD), MOF Sher-e-Bangla Nagar, Dhaka_1207Bangladesh                                         "
+    },
+    "assignedTokenCount" : 1,
+    "activeTokenCount" : 0,
+    "allProductsFlag" : true
+  }, {
+    "id" : 16,
+    "firstName" : "Rei",
+    "middleName" : null,
+    "lastName" : "Perello",
+    "emailAddress" : "rei@cpd.org",
+    "contactTitle" : null,
+    "jobPosition" : null,
+    "status" : "ACTIVE",
+    "role" : "AUTH_SIGNATORY",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "agency" : {
+      "id" : "BAN0003",
+      "name" : "Office of the Controller General of Accounts      ",
+      "address" : "(Implementing Agency) Secretariate Building(3rd Phase)Segeubagicha,Dhaka-1000,Bangladesh                                 "
+    },
+    "assignedTokenCount" : 0,
+    "activeTokenCount" : 1,
+    "allProductsFlag" : true
+  } ],
+  "letterCredit" : null,
+  "lcAmendDetails" : null,
+  "chatMessage" : null,
+  "disbursements" : null,
+  "assistant" : null,
+  "replyTo" : null,
+  "comments" : null,
+  "txnValidatedBy" : null,
+  "txnValidatedDate" : null,
+  "proposedVerifiers" : [ ],
+  "lastUpdatedByAsst" : {
+    "id" : 10,
+    "firstName" : "Sarah",
+    "middleName" : null,
+    "lastName" : "Ang Munting Prinsesa",
+    "emailAddress" : "sarah@test.com",
+    "contactTitle" : null,
+    "jobPosition" : null,
+    "status" : "ACTIVE",
+    "role" : "WA_ASST",
+    "country" : {
+      "id" : "38",
+      "mnemonicIsoCode" : "BAN",
+      "shortName" : "Bangladesh  ",
+      "name" : "Bangladesh          ",
+      "currencyCode" : "BDT"
+    },
+    "agency" : {
+      "id" : "BAN0002",
+      "name" : "Agrani Bank                                       ",
+      "address" : "Motijheel Commercial Area DhakaBangladesh                                                                                "
+    },
+    "assignedTokenCount" : 0,
+    "activeTokenCount" : 0,
+    "allProductsFlag" : true
+  }
+}

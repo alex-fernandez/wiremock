@@ -1,0 +1,18 @@
+{  
+   "request":{  
+      "url":"/api/v1/sms",
+      "method":"OPTIONS"
+   },
+   "response":{  
+      "fixedDelayMilliseconds": 100,
+      "status":200,
+      "bodyFileName": "json/mock-sms.json",
+      "headers": {
+            "Content-Type": "application/json",
+            "Cache-Control": "no-cache",
+            "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Headers": "accept, content-type",
+      "Access-Control-Allow-Methods": "GET, POST"
+     }
+   }
+}

@@ -1,0 +1,34 @@
+{
+	"unitOfferings": [{
+		"code": "MAA103",
+		"version": "1",
+		"links": {
+			"unit": {
+				"href": "/units/MAA103/v1"
+			}
+		},
+		"location": {
+			"name": "Melbourne Burwood Campus"
+		},
+		"unitClassCode": "D",
+		"unitClassDescription": "CAMPUS MODE (DAY)",
+		"isOnCampus": true,
+		"teachingPeriod": {
+			"type": "semester",
+			"period": "1",
+			"year": "2016",
+			"startDate": "2016-03-01",
+			"endDate": "2016-06-30"
+		},
+		"unitChair": {
+			"links": {
+				"staff": {
+					"href": "/staff/123456"
+				}
+			},
+			"title": "Dr",
+			"firstName": "John",
+			"lastName": "Smith"
+		}
+	}]
+}

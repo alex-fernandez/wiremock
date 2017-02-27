@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.126">
+   <c:merchantReferenceCode>mockRef1234</c:merchantReferenceCode>
+   <c:requestID>4553248696036487801016</c:requestID>
+   <c:decision>ACCEPT</c:decision>
+   <c:reasonCode>100</c:reasonCode>
+   <c:requestToken>Ahj/7wSR7aoJ2cyi1lFwylmjVqzZNHDZy2YM2zRw3cMGLBi2T+AhsdlABT+AhsdlAJBuwBebhk0ky3SA7SkyBOR7aoJ2cyi1lFwAoRS5</c:requestToken>
+   <c:purchaseTotals>
+      <c:currency>AUD</c:currency>
+   </c:purchaseTotals>
+   <c:ccAuthReply>
+      <c:reasonCode>100</c:reasonCode>
+      <c:amount>69.12</c:amount>
+      <c:authorizationCode>831000</c:authorizationCode>
+      <c:avsCode>Y</c:avsCode>
+      <c:avsCodeRaw>Y</c:avsCodeRaw>
+      <c:authorizedDateTime>2016-02-13T00:54:30Z</c:authorizedDateTime>
+      <c:processorResponse>00</c:processorResponse>
+      <c:reconciliationID>4553248696036487801016</c:reconciliationID>
+      <c:merchantAdviceCode>01</c:merchantAdviceCode>
+      <c:merchantAdviceCodeRaw>M001</c:merchantAdviceCodeRaw>
+      <c:cavvResponseCode>2</c:cavvResponseCode>
+      <c:cavvResponseCodeRaw>2</c:cavvResponseCodeRaw>
+      <c:paymentNetworkTransactionID>016153570198200</c:paymentNetworkTransactionID>
+   </c:ccAuthReply>
+   <c:afsReply>
+      <c:reasonCode>100</c:reasonCode>
+      <c:afsResult>36</c:afsResult>
+      <c:hostSeverity>1</c:hostSeverity>
+      <c:consumerLocalTime>16:54:30</c:consumerLocalTime>
+      <c:afsFactorCode>G^Z</c:afsFactorCode>
+      <c:suspiciousInfoCode>RISK-GEO</c:suspiciousInfoCode>
+      <c:scoreModelUsed>default</c:scoreModelUsed>
+      <c:cardBin>411111</c:cardBin>
+      <c:binCountry>US</c:binCountry>
+      <c:cardScheme>VISA CREDIT</c:cardScheme>
+      <c:cardIssuer>JPMORGAN CHASE BANK, N.A.</c:cardIssuer>
+   </c:afsReply>
+   <c:decisionReply>
+      <c:casePriority>3</c:casePriority>
+      <c:activeProfileReply />
+   </c:decisionReply>
+   <c:receiptNumber>168133</c:receiptNumber>
+   <c:additionalData>ABC</c:additionalData>
+</c:replyMessage>

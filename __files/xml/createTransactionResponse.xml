@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><c:replyMessage xmlns:c="urn:schemas-cybersource-com:transaction-data-1.126">
+<c:merchantReferenceCode>null</c:merchantReferenceCode>
+<c:requestID>4663939262326466501020</c:requestID>
+<c:decision>ACCEPT</c:decision>
+<c:reasonCode>100</c:reasonCode>
+<c:requestToken>Ahj/7wSR+apRoPQM2rM4ylmjZszcs3LJsyZsmzRs2asGLBkwS4XmJc8QFLheYlzxCQfOIGBuGTSTLdIDtKTIE5H5qlGg9AzaszgA9SE2</c:requestToken>
+<c:purchaseTotals>
+<c:currency>AUD</c:currency>
+</c:purchaseTotals>
+<c:ccAuthReply>
+<c:reasonCode>100</c:reasonCode>
+<c:amount>200.00</c:amount>
+<c:authorizationCode>831000</c:authorizationCode>
+<c:avsCode>Y</c:avsCode>
+<c:avsCodeRaw>Y</c:avsCodeRaw>
+<c:authorizedDateTime>2016-06-20T03:38:46Z</c:authorizedDateTime>
+<c:processorResponse>00</c:processorResponse>
+<c:reconciliationID>4663939262326466501020</c:reconciliationID>
+<c:merchantAdviceCode>01</c:merchantAdviceCode>
+<c:merchantAdviceCodeRaw>M001</c:merchantAdviceCodeRaw>
+<c:cavvResponseCode>2</c:cavvResponseCode>
+<c:cavvResponseCodeRaw>2</c:cavvResponseCodeRaw>
+<c:paymentNetworkTransactionID>016153570198200</c:paymentNetworkTransactionID>
+</c:ccAuthReply>
+<c:afsReply>
+<c:reasonCode>100</c:reasonCode>
+<c:afsResult>91</c:afsResult>
+<c:hostSeverity>1</c:hostSeverity>
+<c:consumerLocalTime>20:38:46</c:consumerLocalTime>
+<c:afsFactorCode>G^P^Z</c:afsFactorCode>
+<c:suspiciousInfoCode>RISK-GEO</c:suspiciousInfoCode>
+<c:velocityInfoCode>VELS-EM^VELV-EM</c:velocityInfoCode>
+<c:scoreModelUsed>default</c:scoreModelUsed>
+<c:cardBin>411111</c:cardBin>
+<c:binCountry>US</c:binCountry>
+<c:cardScheme>VISA CREDIT</c:cardScheme>
+<c:cardIssuer>JPMORGAN CHASE BANK, N.A.</c:cardIssuer>
+</c:afsReply>
+<c:decisionReply>
+<c:casePriority>3</c:casePriority>
+<c:activeProfileReply/>
+<c:velocityInfoCode>MVEL-R5008^MVEL-R5007</c:velocityInfoCode>
+</c:decisionReply>
+<c:receiptNumber>118434</c:receiptNumber>
+<c:additionalData>ABC</c:additionalData>
+</c:replyMessage>

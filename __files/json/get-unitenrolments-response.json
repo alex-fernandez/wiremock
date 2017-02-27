@@ -1,0 +1,19 @@
+{
+  "unitEnrolments":[
+    {
+      "unitOffering":{
+        "code":"MAA103",
+        "version":1,
+        "location":{
+          "name":"Melbourne Burwood Campus"
+        },
+        "teachingPeriod":{
+          "type":"trimester",
+          "period":"1",
+          "year":"2016"
+        }
+      },
+      "totalStudents":100
+    }
+  ]
+}
